@@ -3,7 +3,7 @@ from typing import List
 
 from parameterized import parameterized
 
-from main import get_numbers
+from .main import get_numbers
 
 
 class RandomNumberTestCase(unittest.TestCase):
