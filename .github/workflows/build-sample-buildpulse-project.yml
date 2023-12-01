@@ -31,8 +31,8 @@ jobs:
       if: '!cancelled()' # Run this step even when the tests fail. Skip if the workflow is cancelled.
       uses: buildpulse/buildpulse-action@main
       with:
-        account: <buildpulse-account-id>
-        repository: <buildpulse-repository-id>
+        account: 115718923
+        repository: 726146546
         path: |
           reports/junit.xml # <path-to-xml-reports>
           reports2/**/junit.xml # support double globbing (if your github-hosted runner OS uses bash 4+)
